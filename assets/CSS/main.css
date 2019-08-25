@@ -11,6 +11,7 @@ body {
 
 .container {
   width: 1140px;
+  margin: 0 auto;
 }
 
 button {
@@ -39,7 +40,7 @@ button {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: #3B566E;
+  color: #6F8BA4;
   margin-top: 34px;
 }
 
@@ -96,6 +97,26 @@ button {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-left: auto;
+}
+
+.dropdown .subnav {
+  display: none;
+  position: relative;
+  top: 50px;
+}
+
+.dropdown i {
+  color: #6F8BA4;
+  position: relative;
+  top: 7px;
+}
+
+.dropdown:hover .subnav {
+  display: block;
+}
+
+ul {
+  list-style: none;
 }
 
 @media screen and (max-width: 1140px) {
@@ -156,8 +177,13 @@ button {
   display: block;
 }
 
+#welcome {
+  margin-top: 100px;
+}
+
 .left {
-  float: left;
+  margin: 80px 50px;
+  width: 48%;
 }
 
 .left h1 {
@@ -190,12 +216,18 @@ button {
 }
 
 .right {
-  float: right;
+  width: 48%;
 }
 
 .right .ramka {
   height: 543px;
   width: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .right .image {
@@ -205,23 +237,90 @@ button {
 .right .one {
   height: 332px;
   width: 49%;
-  float: left;
+}
+
+.right .one #i1 {
+  width: 539px;
+  position: relative;
+  right: 92px;
 }
 
 .right .two {
   width: 49%;
   height: 251px;
-  float: left;
+  margin-left: 10px;
+}
+
+.right .two #i2 {
+  width: 388px;
+  position: relative;
+  right: 40px;
 }
 
 .right .three {
   width: 49%;
-  float: right;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.right .three #i3 {
+  width: 302px;
 }
 
 .right .four {
   width: 49%;
   height: 281px;
-  float: right;
+  position: relative;
+  bottom: 70px;
+  left: 10px;
+}
+
+.right .four #i4 {
+  width: 539px;
+  position: relative;
+  right: 92px;
+  bottom: 340px;
+  z-index: 0;
+}
+
+.right img {
+  margin: auto;
+}
+
+.right .image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.right .goals {
+  height: 281px;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(88, 92, 233, 0.8);
+}
+
+.right .goals p {
+  font-size: 18px;
+  color: white;
+  line-height: 28px;
+  letter-spacing: 1.12px;
+}
+
+.right .goals strong {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.right .goals .text {
+  position: relative;
+  top: 35%;
+  margin: 0 15px;
+}
+
+.welcome-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

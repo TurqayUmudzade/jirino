@@ -1,5 +1,10 @@
+#welcome {
+    margin-top: 100px;
+}
+
 .left {
-    float: left;
+    margin: 80px 50px;
+    width: 48%;
     h1 {
         font-weight: 400;
         font-size: 28px;
@@ -9,7 +14,7 @@
         margin-bottom: 20px;
     }
     span {
-        color: #585CE9;
+        color: $purple;
     }
     p {
         font-weight: 400;
@@ -28,10 +33,13 @@
 }
 
 .right {
-    float: right;
+    width: 48%;
     .ramka {
         height: 543px;
         width: 540px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .image {
         overflow: hidden
@@ -39,20 +47,76 @@
     .one {
         height: 332px;
         width: 49%;
-        float: left;
+        #i1 {
+            width: 539px;
+            position: relative;
+            right: 92px;
+        }
     }
     .two {
         width: 49%;
         height: 251px;
-        float: left;
+        margin-left: 10px;
+        #i2 {
+            width: 388px;
+            position: relative;
+            right: 40px;
+        }
     }
     .three {
         width: 49%;
-        float: right;
+        height: 200px;
+        margin-top: 10px;
+        #i3 {
+            width: 302px;
+        }
     }
     .four {
         width: 49%;
         height: 281px;
-        float: right;
+        position: relative;
+        bottom: 70px;
+        left: 10px;
+        #i4 {
+            width: 539px;
+            position: relative;
+            right: 92px;
+            bottom: 340px;
+            z-index: 0;
+            // background-color: $rgbaPurple;
+        }
     }
+    img {
+        margin: auto;
+    }
+    .image {
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .goals {
+        height: 281px;
+        position: relative;
+        z-index: 2;
+        background-color: $rgbaPurple;
+        p {
+            font-size: 18px;
+            color: white;
+            line-height: 28px;
+            letter-spacing: 1.12px;
+        }
+        strong {
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .text {
+            position: relative;
+            top: 35%;
+            margin: 0 15px;
+        }
+    }
+}
+
+.welcome-wrapper {
+    display: flex;
 }

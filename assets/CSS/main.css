@@ -9,6 +9,33 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.container {
+  width: 1140px;
+}
+
+button {
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid #585CE9;
+  border-radius: 5px;
+  display: inline-block;
+  height: 32px;
+  margin-top: 5px;
+  line-height: 31px;
+  letter-spacing: 0.5px;
+  background: none;
+  color: #585CE9;
+  position: relative;
+  overflow: hidden;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  min-width: 110px;
+  text-align: center;
+}
+
 .nav-links,
 .logo {
   text-decoration: none;
@@ -34,29 +61,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.navbar button {
-  padding-left: 25px;
-  padding-right: 25px;
-  border: 1px solid #585CE9;
-  border-radius: 5px;
-  display: inline-block;
-  height: 32px;
-  margin-top: 5px;
-  line-height: 31px;
-  letter-spacing: 0.5px;
-  background: none;
-  color: #585CE9;
-  position: relative;
-  overflow: hidden;
-  margin-top: 32px;
-  font-weight: 700;
-  font-size: 12px;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  min-width: 110px;
-  text-align: center;
 }
 
 .main-nav {
@@ -151,4 +155,73 @@ body {
 .active {
   display: block;
 }
-/*# sourceMappingURL=style.css.map */
+
+.left {
+  float: left;
+}
+
+.left h1 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #1E3056;
+  line-height: 46px;
+  letter-spacing: 0.93px;
+  margin-bottom: 20px;
+}
+
+.left span {
+  color: #585CE9;
+}
+
+.left p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #697BA2;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.left button {
+  width: 170px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.right {
+  float: right;
+}
+
+.right .ramka {
+  height: 543px;
+  width: 540px;
+}
+
+.right .image {
+  overflow: hidden;
+}
+
+.right .one {
+  height: 332px;
+  width: 49%;
+  float: left;
+}
+
+.right .two {
+  width: 49%;
+  height: 251px;
+  float: left;
+}
+
+.right .three {
+  width: 49%;
+  float: right;
+}
+
+.right .four {
+  width: 49%;
+  height: 281px;
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */

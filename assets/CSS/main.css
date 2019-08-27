@@ -12,6 +12,7 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 button {
@@ -322,5 +323,81 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+#services .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#services .container .one {
+  z-index: 1;
+}
+
+#services .container .two {
+  z-index: 2;
+}
+
+#services .container .three {
+  z-index: 3;
+}
+
+#services .container .four {
+  z-index: 4;
+}
+
+.InLayer {
+  border-radius: 10px;
+  margin-right: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 288px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 0px 55px 25px #F7FAFD;
+          box-shadow: 0px 0px 55px 25px #F7FAFD;
+}
+
+.InLayer h5 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3B566E;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+}
+
+.InLayer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F8BA4;
+  letter-spacing: 0.88px;
+  line-height: 26px;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.InLayer i {
+  color: #585CE9;
+  font-size: 18px;
+  padding: 25px;
+  border-radius: 100%;
+  background: #F7FAFD;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=main.css.map */

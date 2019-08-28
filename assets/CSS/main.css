@@ -15,6 +15,29 @@ body {
   margin-top: 50px;
 }
 
+.defaultText h1 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #1E3056;
+  line-height: 46px;
+  letter-spacing: 0.93px;
+  margin-bottom: 20px;
+}
+
+.defaultText span {
+  color: #585CE9;
+}
+
+.defaultText p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #697BA2;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
 button {
   padding-left: 25px;
   padding-right: 25px;
@@ -182,12 +205,12 @@ ul {
   margin-top: 100px;
 }
 
-.left {
+#welcome .left {
   margin: 80px 50px;
   width: 48%;
 }
 
-.left h1 {
+#welcome .left h1 {
   font-weight: 400;
   font-size: 28px;
   color: #1E3056;
@@ -196,11 +219,11 @@ ul {
   margin-bottom: 20px;
 }
 
-.left span {
+#welcome .left span {
   color: #585CE9;
 }
 
-.left p {
+#welcome .left p {
   font-weight: 400;
   font-size: 16px;
   color: #697BA2;
@@ -210,17 +233,17 @@ ul {
   position: relative;
 }
 
-.left button {
+#welcome .left button {
   width: 170px;
   height: 44px;
   line-height: 44px;
 }
 
-.right {
+#welcome .right {
   width: 48%;
 }
 
-.right .ramka {
+#welcome .right .ramka {
   height: 543px;
   width: 540px;
   display: -webkit-box;
@@ -231,44 +254,44 @@ ul {
   overflow: hidden;
 }
 
-.right .image {
+#welcome .right .image {
   overflow: hidden;
 }
 
-.right .one {
+#welcome .right .one {
   height: 332px;
   width: 49%;
 }
 
-.right .one #i1 {
+#welcome .right .one #i1 {
   width: 539px;
   position: relative;
   right: 92px;
 }
 
-.right .two {
+#welcome .right .two {
   width: 49%;
   height: 251px;
   margin-left: 10px;
 }
 
-.right .two #i2 {
+#welcome .right .two #i2 {
   width: 388px;
   position: relative;
   right: 40px;
 }
 
-.right .three {
+#welcome .right .three {
   width: 49%;
   height: 200px;
   margin-top: 10px;
 }
 
-.right .three #i3 {
+#welcome .right .three #i3 {
   width: 302px;
 }
 
-.right .four {
+#welcome .right .four {
   width: 49%;
   height: 281px;
   position: relative;
@@ -276,7 +299,7 @@ ul {
   left: 10px;
 }
 
-.right .four #i4 {
+#welcome .right .four #i4 {
   width: 539px;
   position: relative;
   right: 92px;
@@ -284,36 +307,36 @@ ul {
   z-index: 0;
 }
 
-.right img {
+#welcome .right img {
   margin: auto;
 }
 
-.right .image {
+#welcome .right .image {
   overflow: hidden;
   border-radius: 10px;
 }
 
-.right .goals {
+#welcome .right .goals {
   height: 281px;
   position: relative;
   z-index: 2;
   background-color: rgba(88, 92, 233, 0.8);
 }
 
-.right .goals p {
+#welcome .right .goals p {
   font-size: 18px;
   color: white;
   line-height: 28px;
   letter-spacing: 1.12px;
 }
 
-.right .goals strong {
+#welcome .right .goals strong {
   color: white;
   font-size: 14px;
   font-weight: 400;
 }
 
-.right .goals .text {
+#welcome .right .goals .text {
   position: relative;
   top: 35%;
   margin: 0 15px;
@@ -399,5 +422,185 @@ ul {
   border-radius: 100%;
   background: #F7FAFD;
   margin-bottom: 15px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#cloud {
+  background-color: #F7FAFD;
+  padding-bottom: 50px;
+}
+
+#cloud .left {
+  margin-top: 100px;
+  padding-right: 127px;
+}
+
+#cloud .right {
+  margin-top: 100px;
+  width: 100%;
+}
+
+#cloud .right img {
+  margin-top: 80px;
+}
+
+#cloud .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#cloud .options .option {
+  width: 255px;
+  margin: 20px;
+  margin-left: 0px;
+  height: 40px;
+  background: white;
+  height: 40px;
+  line-height: 40px;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.88px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#cloud .options .option .optionAnchor {
+  text-decoration: none;
+}
+
+#cloud .options .option .optionAnchor span {
+  color: #3B566E;
+  margin-left: 40px;
+}
+
+#cloud .options .option .optionAnchor i {
+  position: relative;
+  z-index: 3;
+  left: 17px;
+  top: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+#cloud .options .option .designBorder {
+  position: relative;
+  bottom: 40px;
+  right: 70px;
+  z-index: 2;
+  height: 120px;
+  width: 150px;
+  background: #585CE9;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#Design {
+  margin-top: 0 !important;
+  padding-bottom: 50px;
+}
+
+#Design .flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#Design .left {
+  margin-top: 100px;
+}
+
+#Design .right {
+  margin-top: 100px;
+  width: 100%;
+}
+
+#Design .right img {
+  margin-top: 80px;
+}
+
+#Design .container {
+  margin-top: 0 !important;
+}
+
+#Design .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Design .options .option {
+  width: 255px;
+  margin: 20px;
+  margin-left: 0px;
+  height: 40px;
+  background: white;
+  height: 40px;
+  line-height: 40px;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.88px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#Design .options .option .optionAnchor {
+  text-decoration: none;
+}
+
+#Design .options .option .optionAnchor span {
+  color: #3B566E;
+  margin-left: 40px;
+}
+
+#Design .options .option .optionAnchor i {
+  position: relative;
+  z-index: 3;
+  left: 17px;
+  top: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+#Design .options .option .designBorder {
+  position: relative;
+  bottom: 40px;
+  right: 70px;
+  z-index: 2;
+  height: 120px;
+  width: 150px;
+  background: #585CE9;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
 }
 /*# sourceMappingURL=main.css.map */

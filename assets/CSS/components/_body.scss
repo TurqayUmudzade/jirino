@@ -13,3 +13,26 @@ body {
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.defaultText {
+    h1 {
+        font-weight: 400;
+        font-size: 28px;
+        color: #1E3056;
+        line-height: 46px;
+        letter-spacing: 0.93px;
+        margin-bottom: 20px;
+    }
+    span {
+        color: $purple;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #697BA2;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+}

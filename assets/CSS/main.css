@@ -18,7 +18,7 @@ body {
 .defaultText h1 {
   font-weight: 400;
   font-size: 28px;
-  color: #1E3056;
+  color: #3B566E;
   line-height: 46px;
   letter-spacing: 0.93px;
   margin-bottom: 20px;
@@ -41,6 +41,7 @@ body {
 h3 {
   font-weight: 400;
   font-size: 16px;
+  color: #3B566E;
 }
 
 p {
@@ -71,6 +72,125 @@ button {
   transition: all 0.3s ease 0s;
   min-width: 110px;
   text-align: center;
+}
+
+.button {
+  width: 160px;
+  margin: auto;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background: #585CE9;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.75px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  outline: none !important;
+  cursor: pointer;
+  position: relative;
+}
+
+footer {
+  color: white !important;
+  background: #585CE9;
+  padding-top: 70px;
+}
+
+footer p {
+  color: white !important;
+}
+
+footer .container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+footer .container .main p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.88px;
+}
+
+footer .container .main h5 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.69px;
+  line-height: 30px;
+  margin-bottom: 30px !important;
+}
+
+footer .container .main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .main ul li {
+  display: inline;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #E5E9F7;
+}
+
+footer .container .main ul li i {
+  margin-right: 5px;
+  font-size: 14px;
+  position: relative;
+  top: 3px;
+}
+
+footer .container .section {
+  margin-left: 29px;
+}
+
+footer .container .copyright {
+  text-align: center;
+  border-top: 1px solid #777BFF;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #E5E9F7;
+  letter-spacing: 0.88px;
+}
+
+.one {
+  width: 40%;
+}
+
+.two {
+  width: 15%;
+}
+
+.three {
+  width: 15%;
+}
+
+.four p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.four i {
+  font-size: 14px;
+  color: #E5E9F7;
+  padding: 0 5px;
 }
 
 .nav-links,
@@ -678,7 +798,7 @@ ul {
 
 #team .container .team .teamMember .icons {
   z-index: 3;
-  margin: 15px 0;
+  margin: 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -691,6 +811,11 @@ ul {
   margin: 0 7px;
   color: #585CE9;
   font-size: 14px;
+}
+
+#team .container .team .teamMember .memberInfo {
+  position: relative;
+  top: -55px;
 }
 
 #team .container .team .teamMember .memberInfo h3 {
@@ -715,5 +840,143 @@ ul {
   padding: 0 25px;
   letter-spacing: 0.6px;
   line-height: 26px;
+}
+
+#Prices {
+  background-color: #F7FAFD;
+}
+
+#Prices .container .text {
+  margin-top: 40px;
+  padding: 40px 150px;
+  text-align: center;
+}
+
+#Prices .container .plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#Prices .container .plans .plan {
+  overflow: hidden;
+  padding: 0 15px;
+  width: 350px;
+  margin-left: 30px;
+  background: white;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#Prices .container .plans .plan .head {
+  border-bottom: 1px solid #F7FAFD;
+  text-align: center;
+  height: 130px;
+}
+
+#Prices .container .plans .plan .head h3 {
+  position: relative;
+  top: 55px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #3B566E;
+}
+
+#Prices .container .plans .plan .body {
+  margin-bottom: 40px;
+}
+
+#Prices .container .plans .plan .body .number {
+  position: relative;
+  top: -20px;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background: #F7FAFD;
+  margin: auto;
+  text-align: center;
+}
+
+#Prices .container .plans .plan .body .number span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #585CE9;
+}
+
+#Prices .container .plans .plan .body .price {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#Prices .container .plans .plan .body .price span {
+  color: #585CE9;
+}
+
+#Prices .container .plans .plan .body .price #sign {
+  height: 47px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #585CE9;
+  position: relative;
+  top: -15px;
+}
+
+#Prices .container .plans .plan .body .price #value {
+  font-weight: 700;
+  font-size: 34px;
+  color: #585CE9;
+  letter-spacing: 2.12px;
+}
+
+#Prices .container .plans .plan .body .price #month {
+  font-weight: 700;
+  font-size: 14px;
+  color: #585CE9;
+  letter-spacing: 0.88px;
+}
+
+#Prices .container .plans .plan .body .list {
+  text-align: center;
+}
+
+#Prices .container .plans .plan .body .list .listItem {
+  color: #3B566E;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.88px;
+}
+
+#Prices .container .plans .plan .foot {
+  text-align: center;
+}
+
+#Prices .container .plans .plan .foot button {
+  margin-bottom: 40px;
+  letter-spacing: 0.75px;
+}
+
+.no {
+  color: #CCDCEA !important;
+  text-decoration: line-through;
+}
+
+#headMiddle {
+  background-image: linear-gradient(135deg, #585CE9 0%, #5C83E3 100%) !important;
+}
+
+#headMiddle span {
+  z-index: 3;
+}
+
+#headMiddle h3 {
+  color: white !important;
 }
 /*# sourceMappingURL=main.css.map */

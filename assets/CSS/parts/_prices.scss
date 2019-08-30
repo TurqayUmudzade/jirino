@@ -1,0 +1,118 @@
+#Prices {
+    background-color: $background;
+    .container {
+        .text {
+            margin-top: 40px;
+            padding: 40px 150px;
+            text-align: center;
+        }
+        .plans {
+            display: flex;
+            flex-wrap: nowrap;
+            .plan {
+                overflow: hidden;
+                padding: 0 15px;
+                width: 350px;
+                margin-left: 30px;
+                background: white;
+                box-shadow: $boxshadow;
+                border-radius: 5px;
+                margin-bottom: 30px;
+                .head {
+                    border-bottom: 1px solid #F7FAFD;
+                    text-align: center;
+                    height: 130px;
+                    h3 {
+                        position: relative;
+                        top: 55px;
+                        font-weight: 700;
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        color: #3B566E;
+                    }
+                }
+                .body {
+                    margin-bottom: 40px;
+                    .number {
+                        position: relative;
+                        top: -20px;
+                        border-radius: 100%;
+                        width: 42px;
+                        height: 42px;
+                        line-height: 42px;
+                        background: #F7FAFD;
+                        margin: auto;
+                        text-align: center;
+                        span {
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: $purple;
+                        }
+                    }
+                    .price {
+                        text-align: center;
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+                        span {
+                            color: #585CE9;
+                        }
+                        #sign {
+                            height: 47px;
+                            font-weight: 600;
+                            font-size: 20px;
+                            color: #585CE9;
+                            position: relative;
+                            top: -15px;
+                        }
+                        #value {
+                            font-weight: 700;
+                            font-size: 34px;
+                            color: #585CE9;
+                            letter-spacing: 2.12px;
+                        }
+                        #month {
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: #585CE9;
+                            letter-spacing: 0.88px;
+                        }
+                    }
+                    .list {
+                        text-align: center;
+                        .listItem {
+                            color: #3B566E;
+                            margin-bottom: 12px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            letter-spacing: 0.88px;
+                        }
+                    }
+                }
+                .foot {
+                    text-align: center;
+                    button {
+                        margin-bottom: 40px;
+                        letter-spacing: 0.75px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//too cross out options
+.no {
+    color: #CCDCEA !important;
+    text-decoration: line-through;
+}
+
+//make the middle option different
+#headMiddle {
+    background-image: linear-gradient(135deg, #585CE9 0%, #5C83E3 100%) !important;
+    span {
+        z-index: 3;
+    }
+    h3 {
+        color: white !important;
+    }
+}

@@ -26,6 +26,16 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 55px 25px $icongrey;
+    &:hover {
+        background-color: $purple;
+        color: white;
+        h5 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
     h5 {
         font-weight: 400;
         font-size: 16px;

@@ -3,15 +3,12 @@
     .container {
         .text {
             margin-top: 40px;
-            padding: 40px 150px;
-            text-align: center;
         }
         .plans {
             display: flex;
             flex-wrap: nowrap;
             .plan {
                 overflow: hidden;
-                padding: 0 15px;
                 width: 350px;
                 margin-left: 30px;
                 background: white;

@@ -33,6 +33,10 @@
 }
 
 #welcome .right {
+    img:hover {
+        transform: scale(1.1);
+        transition: all 0.4s;
+    }
     width: 48%;
     .ramka {
         height: 543px;

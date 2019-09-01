@@ -39,6 +39,9 @@
                 }
                 .button {
                     margin: 0 110px;
+                    &:hover {
+                        background-color: $indigo !important;
+                    }
                 }
             }
         }

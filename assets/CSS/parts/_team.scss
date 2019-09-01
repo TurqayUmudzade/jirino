@@ -16,12 +16,25 @@
                 border-radius: 5px;
                 margin-left: 30px;
                 text-align: center;
+                &:hover {
+                    .designBox {
+                        height: 120px;
+                        transition: all 300ms ease-in;
+                    }
+                    .icons {
+                        i {
+                            z-index: 5;
+                            color: white;
+                            transition: all 250ms ease-in;
+                        }
+                    }
+                }
                 .designBox {
                     width: 100%;
-                    height: 68px;
+                    height: 65px;
                     background-image: linear-gradient(135deg, #585CE9 0%, #5C83E3 100%);
                     border-radius: 5px 5px 0px 0px;
-                    position: relative;
+                    position: absolute;
                     z-index: 2;
                 }
                 .image {
@@ -39,7 +52,8 @@
                 }
                 .icons {
                     z-index: 3;
-                    margin: 25px 0;
+                    margin-top: 40px;
+                    margin-bottom: 25px;
                     display: flex;
                     justify-content: center;
                     i {
@@ -49,8 +63,8 @@
                     }
                 }
                 .memberInfo {
-                    position: relative;
-                    top: -55px;
+                    // position: relative;
+                    // top: -55px;
                     h3 {
                         position: relative;
                         margin-top: 5px;

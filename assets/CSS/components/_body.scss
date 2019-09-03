@@ -10,8 +10,12 @@ body {
     background-repeat: no-repeat;
 }
 
+#faq-body {
+    background-image: none !important;
+}
+
 .container {
-    width: $container-width;
+    max-width: $container-width;
     margin: 0 auto;
     margin-top: 50px;
 }

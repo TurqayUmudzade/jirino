@@ -80,3 +80,47 @@
         text-align: center;
     }
 }
+
+.faq {
+    height: 270px;
+}
+
+.wrapper-3 {
+    position: relative;
+    top: 80px;
+    z-index: 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        font-weight: 400;
+        font-size: 36px;
+        height: 50px;
+        line-height: 46px;
+        letter-spacing: 1.4px;
+        color: #fff;
+        text-align: center;
+    }
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    i {
+        color: $spanColor;
+        font-size: 16px;
+        position: relative;
+        top: 3px;
+    }
+    span {
+        font-weight: 400;
+        font-size: 14px;
+        color: $spanColor;
+        line-height: 30px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+}

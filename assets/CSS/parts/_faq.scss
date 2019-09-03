@@ -1,0 +1,60 @@
+#faq {
+    .container {
+        padding-top: 100px;
+    }
+    .wrapper {
+        display: flex;
+        .intro {
+            width: 50%;
+            .intro-wrapper {
+                width: 540px;
+                padding: 0 15px;
+                h2 {
+                    font-weight: 400;
+                    font-size: 30px;
+                    color: $purple;
+                    letter-spacing: 1.88px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    margin-bottom: 28px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 0.88px;
+                    line-height: 28px;
+                    color: #6F8BA4;
+                }
+            }
+        }
+        .faqs {
+            width: 50%;
+            .faqs-wrapper {
+                .card {
+                    width: 540px;
+                    padding: 0 15px;
+                    border-radius: 5px;
+                    box-shadow: $boxshadow;
+                    .questions {
+                        //border-bottom: 1px solid $grey;
+                        p {
+                            width: 100%;
+                            text-align: left;
+                            padding: 0px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            letter-spacing: 1px;
+                            color: #3B566E;
+                            text-decoration: none !important;
+                            transition: all 0.3s ease 0s;
+                            cursor: pointer;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

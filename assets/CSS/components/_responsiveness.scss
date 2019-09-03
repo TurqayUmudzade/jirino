@@ -1,0 +1,94 @@
+@media screen and (max-width: 1140px) {
+    #faq {
+        .container {
+            .wrapper {
+                flex-wrap: wrap;
+                justify-content: center;
+                .intro {
+                    width: 100%;
+                }
+                .faqs {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    footer {
+        .main {
+            flex-wrap: wrap !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    nav {
+        .main {
+            flex-wrap: wrap !important;
+        }
+    }
+}
+
+@media screen and (max-width: 815px) {
+    button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        .main-nav {
+            position: absolute;
+            left: 35%;
+            top: 0px;
+            z-index: 5;
+            list-style-type: none;
+            display: none;
+            margin-top: 50px;
+            width: 100%;
+            background: white;
+            li {
+                margin: 15px;
+            }
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .logo {
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #welcome {
+        .container {}
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #cloud {
+        .container {}
+        .flex {
+            flex-wrap: wrap;
+            .options {
+                margin: 0 auto;
+            }
+            .right {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #cloud {
+        .flex {
+            flex-direction: column;
+        }
+    }
+}

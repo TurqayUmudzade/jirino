@@ -9,6 +9,9 @@
     .left {
         margin-top: 100px;
         padding-right: 127px;
+        .text {
+            margin-left: unset !important;
+        }
     }
     .right {
         margin-top: 100px;

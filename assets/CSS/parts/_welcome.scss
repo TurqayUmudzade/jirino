@@ -2,6 +2,10 @@
     margin-top: 100px;
 }
 
+.welcome-wrapper {
+    display: flex;
+}
+
 #welcome .left {
     margin: 80px 50px;
     width: 48%;
@@ -119,8 +123,4 @@
             margin: 0 15px;
         }
     }
-}
-
-.welcome-wrapper {
-    display: flex;
 }

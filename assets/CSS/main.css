@@ -26,7 +26,7 @@ body {
 
 .defaultText {
   text-align: center;
-  width: 540px;
+  max-width: 540px;
   margin-left: 25%;
 }
 
@@ -111,29 +111,6 @@ button {
 }
 
 @media screen and (max-width: 1140px) {
-  #faq .container .wrapper {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #faq .container .wrapper .intro {
-    width: 100%;
-  }
-  #faq .container .wrapper .faqs {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 1140px) {
-  footer .main {
-    -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
-  }
-}
-
-@media screen and (max-width: 1140px) {
   nav .main {
     -ms-flex-wrap: wrap !important;
         flex-wrap: wrap !important;
@@ -141,7 +118,7 @@ button {
 }
 
 @media screen and (max-width: 815px) {
-  button {
+  nav button {
     display: none;
   }
 }
@@ -172,12 +149,32 @@ button {
 }
 
 @media screen and (max-width: 1140px) {
+  #welcome .container .welcome-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #welcome .container .welcome-wrapper .left {
+    width: 100%;
+  }
+  #welcome .container .welcome-wrapper .right {
+    width: 100%;
+  }
+  #welcome .container .welcome-wrapper .right .ramka {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 1140px) {
   #cloud .flex {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   #cloud .flex .options {
     margin: 0 auto;
+  }
+  #cloud .flex .options .option {
+    margin: 10px;
   }
   #cloud .flex .right {
     width: 100%;
@@ -194,9 +191,99 @@ button {
 }
 
 @media screen and (max-width: 1140px) {
+  #design .container {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #design .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #design .flex .options {
+    margin: 0 auto;
+  }
+  #design .flex .options .option {
+    margin: 10px;
+  }
+  #design .flex .right {
+    min-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #design .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1140px) {
   #services .container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #parallax .wrapper {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #parallax .wrapper .item {
+    min-width: 255px;
+    margin: 20px auto !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #team .container .text {
+    margin: 0 auto;
+  }
+  #team .container .team {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #team .container .team .teamMember {
+    max-width: 261px;
+    margin: 60px auto !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #Prices .text {
+    margin: 0 auto;
+  }
+  #Prices .plans {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #Prices .plans .plan {
+    margin: 20px auto !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .text {
+    margin: 0 auto;
+  }
+  #blog .wrapper-blog {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #blog .wrapper-blog .blog-item {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  footer .main {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
   }
 }
 
@@ -230,6 +317,22 @@ button {
   }
   #vission .about-text {
     position: unset !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #faq .container .wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #faq .container .wrapper .intro {
+    width: 100%;
+  }
+  #faq .container .wrapper .faqs {
+    width: 100%;
   }
 }
 
@@ -335,6 +438,10 @@ footer .container .copyright {
   font-size: 14px;
   color: #E5E9F7;
   padding: 0 5px;
+}
+
+header {
+  padding-bottom: 10px;
 }
 
 .nav-links,
@@ -578,6 +685,12 @@ ul {
   margin-top: 100px;
 }
 
+.welcome-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #welcome .left {
   margin: 80px 50px;
   width: 48%;
@@ -722,12 +835,6 @@ ul {
   margin: 0 15px;
 }
 
-.welcome-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 #services .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -836,6 +943,10 @@ ul {
   padding-right: 127px;
 }
 
+#cloud .left .text {
+  margin-left: unset !important;
+}
+
 #cloud .right {
   margin-top: 100px;
   width: 100%;
@@ -936,13 +1047,15 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
 }
 
 #Design {
   margin-top: 0 !important;
   padding-bottom: 50px;
+}
+
+#Design .text {
+  margin: unset !important;
 }
 
 #Design .flex {
@@ -957,11 +1070,12 @@ ul {
 }
 
 #Design .right {
+  width: 50%;
   margin-top: 100px;
-  width: 100%;
 }
 
 #Design .right img {
+  min-width: 100%;
   margin-top: 80px;
 }
 
@@ -1174,7 +1288,7 @@ ul {
 }
 
 #Prices .container .text {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 #Prices .container .plans {
@@ -1578,6 +1692,15 @@ ul {
   cursor: pointer;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.faq {
+  background-image: url("../images/home/2.jpg") !important;
+  min-height: 270px !important;
+}
+
+.faq .container::before {
+  background-image: linear-gradient(127deg, #585CE9 0%, #5C83E3 91%) !important;
 }
 
 #mission {

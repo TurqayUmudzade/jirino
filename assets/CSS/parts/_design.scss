@@ -1,9 +1,12 @@
 .flex {
     display: flex;
-    flex-wrap: nowrap;
+    //flex-wrap: nowrap;
 }
 
 #Design {
+    .text {
+        margin: unset !important;
+    }
     .flex {
         flex-direction: row-reverse;
     }
@@ -13,9 +16,10 @@
         margin-top: 100px;
     }
     .right {
+        width: 50%;
         margin-top: 100px;
-        width: 100%;
         img {
+            min-width: 100%;
             margin-top: 80px;
         }
     }

@@ -1,28 +1,4 @@
-@media screen and (max-width: 1140px) {
-    #faq {
-        .container {
-            .wrapper {
-                flex-wrap: wrap;
-                justify-content: center;
-                .intro {
-                    width: 100%;
-                }
-                .faqs {
-                    width: 100%;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1140px) {
-    footer {
-        .main {
-            flex-wrap: wrap !important;
-        }
-    }
-}
-
+//for header and nav-bar
 @media screen and (max-width: 1140px) {
     nav {
         .main {
@@ -32,8 +8,10 @@
 }
 
 @media screen and (max-width: 815px) {
-    button {
-        display: none;
+    nav {
+        button {
+            display: none;
+        }
     }
 }
 
@@ -66,17 +44,33 @@
 
 @media screen and (max-width: 1140px) {
     #welcome {
-        .container {}
+        .container {
+            .welcome-wrapper {
+                flex-wrap: wrap;
+                .left {
+                    width: 100%;
+                }
+                .right {
+                    width: 100%;
+                    .ramka {
+                        transform: scale(0.8);
+                    }
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width: 1140px) {
     #cloud {
-        .container {}
+        .text {}
         .flex {
             flex-wrap: wrap;
             .options {
                 margin: 0 auto;
+                .option {
+                    margin: 10px;
+                }
             }
             .right {
                 width: 100%;
@@ -94,9 +88,103 @@
 }
 
 @media screen and (max-width: 1140px) {
+    #design {
+        .container {
+            flex-wrap: wrap !important;
+        }
+        .flex {
+            display: flex;
+            flex-wrap: wrap !important;
+            .options {
+                margin: 0 auto;
+                .option {
+                    margin: 10px;
+                }
+            }
+            .right {
+                min-width: 100% !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #design {
+        .flex {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
     #services {
         .container {
             flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #parallax {
+        .wrapper {
+            flex-wrap: wrap !important;
+            .item {
+                min-width: 255px;
+                margin: 20px auto !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #team {
+        .container {
+            .text {
+                margin: 0 auto;
+            }
+            .team {
+                flex-wrap: wrap !important;
+                .teamMember {
+                    max-width: 261px;
+                    margin: 60px auto !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #Prices {
+        .text {
+            margin: 0 auto;
+        }
+        .plans {
+            flex-wrap: wrap !important;
+            .plan {
+                margin: 20px auto !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .text {
+        margin: 0 auto;
+    }
+    #blog {
+        .wrapper-blog {
+            flex-wrap: wrap !important;
+            .blog-item {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    footer {
+        .main {
+            flex-wrap: wrap !important;
         }
     }
 }
@@ -129,6 +217,24 @@
         }
         .about-text {
             position: unset !important;
+        }
+    }
+}
+
+//for faq.html
+@media screen and (max-width: 1140px) {
+    #faq {
+        .container {
+            .wrapper {
+                flex-wrap: wrap;
+                justify-content: center;
+                .intro {
+                    width: 100%;
+                }
+                .faqs {
+                    width: 100%;
+                }
+            }
         }
     }
 }

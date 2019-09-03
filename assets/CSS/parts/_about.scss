@@ -1,0 +1,82 @@
+#mission {
+    margin: 30px 0;
+    .mission-wrapper {
+        position: relative;
+        display: flex;
+        .image {
+            border-radius: 5px;
+            overflow: hidden;
+            img:hover {
+                transform: scale(1.1);
+                transition: all 0.4s;
+            }
+        }
+        .about-text {
+            background: white;
+            border-radius: 5px;
+            position: absolute;
+            left: 60%;
+            top: 10%;
+            z-index: 2;
+            padding: 30px;
+            padding-bottom: 10px;
+            box-shadow: $boxshadow;
+            h2 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 38px;
+                letter-spacing: 1.75px;
+                color: #3B566E;
+                margin-bottom: 20px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 26px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+#vission {
+    margin: 30px 0;
+    .mission-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        .image {
+            border-radius: 5px;
+            overflow: hidden;
+            img:hover {
+                transform: scale(1.1);
+                transition: all 0.4s;
+            }
+        }
+        .about-text {
+            background: white;
+            border-radius: 5px;
+            position: absolute;
+            right: 60%;
+            top: 10%;
+            z-index: 2;
+            padding: 30px;
+            padding-bottom: 10px;
+            box-shadow: $boxshadow;
+            h2 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 38px;
+                letter-spacing: 1.75px;
+                color: #3B566E;
+                margin-bottom: 20px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 26px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

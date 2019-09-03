@@ -41,7 +41,7 @@
     nav {
         .main-nav {
             position: absolute;
-            left: 35%;
+            right: 0px;
             top: 0px;
             z-index: 5;
             list-style-type: none;
@@ -89,6 +89,46 @@
     #cloud {
         .flex {
             flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #services {
+        .container {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+//only for about.html
+@media screen and (max-width: 1140px) {
+    #mission {
+        .mission-wrapper {
+            flex-direction: column;
+        }
+        .image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .about-text {
+            position: unset !important;
+        }
+    }
+    #vission {
+        .mission-wrapper {
+            flex-direction: column !important;
+        }
+        .image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .about-text {
+            position: unset !important;
         }
     }
 }

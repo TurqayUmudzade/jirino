@@ -6,12 +6,15 @@
 
 body {
     font-family: "Nunito", sans-serif;
-    background-image: url("../images/download.svg");
     background-repeat: no-repeat;
 }
 
 #faq-body {
     background-image: none !important;
+}
+
+#home-body {
+    background-image: url("../images/download.svg");
 }
 
 .container {

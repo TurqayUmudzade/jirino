@@ -7,12 +7,15 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  background-image: url("../images/download.svg");
   background-repeat: no-repeat;
 }
 
 #faq-body {
   background-image: none !important;
+}
+
+#home-body {
+  background-image: url("../images/download.svg");
 }
 
 .container {
@@ -146,7 +149,7 @@ button {
 @media screen and (max-width: 600px) {
   nav .main-nav {
     position: absolute;
-    left: 35%;
+    right: 0px;
     top: 0px;
     z-index: 5;
     list-style-type: none;
@@ -187,6 +190,46 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #services .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #mission .mission-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #mission .image {
+    width: 100%;
+  }
+  #mission .image img {
+    width: 100%;
+  }
+  #mission .about-text {
+    position: unset !important;
+  }
+  #vission .mission-wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #vission .image {
+    width: 100%;
+  }
+  #vission .image img {
+    width: 100%;
+  }
+  #vission .about-text {
+    position: unset !important;
   }
 }
 
@@ -708,6 +751,7 @@ ul {
 }
 
 .InLayer {
+  min-width: 255px;
   border-radius: 10px;
   margin-right: 30px;
   -webkit-box-flex: 1;
@@ -1534,5 +1578,113 @@ ul {
   cursor: pointer;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#mission {
+  margin: 30px 0;
+}
+
+#mission .mission-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#mission .mission-wrapper .image {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#mission .mission-wrapper .image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#mission .mission-wrapper .about-text {
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  z-index: 2;
+  padding: 30px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+
+#mission .mission-wrapper .about-text h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 1.75px;
+  color: #3B566E;
+  margin-bottom: 20px;
+}
+
+#mission .mission-wrapper .about-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+#vission {
+  margin: 30px 0;
+}
+
+#vission .mission-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#vission .mission-wrapper .image {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#vission .mission-wrapper .image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#vission .mission-wrapper .about-text {
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  right: 60%;
+  top: 10%;
+  z-index: 2;
+  padding: 30px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+
+#vission .mission-wrapper .about-text h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 1.75px;
+  color: #3B566E;
+  margin-bottom: 20px;
+}
+
+#vission .mission-wrapper .about-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */

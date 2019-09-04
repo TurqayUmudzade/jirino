@@ -238,3 +238,25 @@
         }
     }
 }
+
+//for contact.html
+@media screen and (max-width: 1140px) {
+    #map {
+        margin: 0 20px;
+        .contact {
+            flex-wrap: wrap !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #contact-form {
+        margin: 0 20px;
+        .wrapper {
+            flex-wrap: wrap !important;
+            .contact-text {
+                width: 100% !important;
+            }
+        }
+    }
+}

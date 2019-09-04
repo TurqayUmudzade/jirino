@@ -17,6 +17,10 @@ body {
     background-image: url("../images/download.svg");
 }
 
+#contact-body {
+    background: $background;
+}
+
 .container {
     max-width: $container-width;
     margin: 0 auto;

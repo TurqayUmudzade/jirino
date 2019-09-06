@@ -16,11 +16,11 @@ button {
     font-weight: 700;
     font-size: 12px;
     transition: all 0.3s ease 0s;
-    min-width: 110px;
     text-align: center;
 }
 
 .button {
+    min-width: 110px;
     width: 160px;
     margin: auto;
     display: inline-block;

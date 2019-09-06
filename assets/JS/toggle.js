@@ -5,3 +5,11 @@ navBarToggle.addEventListener('click', function() {
 
     mainNav.classList.toggle('active');
 });
+
+//navbar on scroll
+$(function() {
+    $(document).scroll(function() {
+        var header = $("header");
+        header.toggleClass('scrolled', $(this).scrollTop() > header.height());
+    });
+});

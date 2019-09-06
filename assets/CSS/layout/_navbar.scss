@@ -1,6 +1,6 @@
 header {
     padding-bottom: 10px;
-    background: white;
+    background: transparent;
 }
 
 .nav-links,
@@ -138,4 +138,14 @@ ul {
 .active {
     display: block !important;
     margin-bottom: 100px;
+}
+
+.scrolled {
+    z-index: 90;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: white;
+    box-shadow: $Navboxshadow;
+    transition: 200ms linear;
 }

@@ -496,7 +496,7 @@ footer .container .copyright {
 
 header {
   padding-bottom: 10px;
-  background: white;
+  background: transparent;
 }
 
 .nav-links,
@@ -653,6 +653,18 @@ ul {
   margin-bottom: 100px;
 }
 
+.scrolled {
+  z-index: 90;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: white;
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  -webkit-transition: 200ms linear;
+  transition: 200ms linear;
+}
+
 .loader-wrapper {
   z-index: 999;
   width: 100%;
@@ -734,10 +746,6 @@ ul {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
-
-#welcome {
-  margin-top: 100px;
 }
 
 .welcome-wrapper {

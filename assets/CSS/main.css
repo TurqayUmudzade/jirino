@@ -371,9 +371,10 @@ button {
   #blog {
     margin: 0 20px;
   }
+  #blog .assets {
+    margin: 0 auto;
+  }
   #blog .assets .asset {
-    position: relative;
-    left: 50%;
     margin: 0 auto;
   }
 }
@@ -383,7 +384,7 @@ button {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #blog .blogs .blog {
+  #blog .blogs .blog-wrapper {
     margin: 0 auto;
     min-width: 320px;
   }

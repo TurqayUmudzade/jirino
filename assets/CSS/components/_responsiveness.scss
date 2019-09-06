@@ -266,9 +266,8 @@
             #blog {
                 margin: 0 20px;
                 .assets {
+                    margin: 0 auto;
                     .asset {
-                        position: relative;
-                        left: 50%;
                         margin: 0 auto;
                     }
                 }
@@ -279,7 +278,7 @@
             #blog {
                 .blogs {
                     flex-wrap: wrap;
-                    .blog {
+                    .blog-wrapper {
                         margin: 0 auto;
                         min-width: 320px;
                     }

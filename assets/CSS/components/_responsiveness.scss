@@ -285,3 +285,51 @@
                 }
             }
         }
+        
+        //for single-blog.html
+        @media screen and (max-width: 1140px) {
+            #blog {
+                .wrapper {
+                    .blogs {
+                        width: 100% !important;
+                        .single-blog {
+                            width: 100% !important;
+                            .images {
+                                flex-wrap: wrap;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width: 800px) {
+            #blog {
+                .images {
+                    .image-SB {
+                        width: 100%;
+                        flex-wrap: wrap;
+                        img {
+                            height: unset;
+                            ;
+                        }
+                    }
+                }
+            }
+        }
+        
+        @media screen and (max-width: 1140px) {
+            #comments {
+                .comments-wrapper {
+                    margin: 0 auto;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 1140px) {
+            #comment-form {
+                .comments-wrapper2 {
+                    margin: 30px auto;
+                }
+            }
+        }

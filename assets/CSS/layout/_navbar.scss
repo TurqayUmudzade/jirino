@@ -1,6 +1,17 @@
 header {
     padding-bottom: 10px;
     background: transparent;
+    .nav-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        position: relative;
+        .navbar {
+            display: flex;
+            padding-bottom: 0;
+            height: 70px;
+            align-items: center;
+        }
+    }
 }
 
 .nav-links,
@@ -18,13 +29,6 @@ header {
     cursor: pointer;
     font-size: 24px;
     display: none;
-}
-
-.navbar {
-    display: flex;
-    padding-bottom: 0;
-    height: 70px;
-    align-items: center;
 }
 
 .main-nav {
@@ -46,17 +50,12 @@ header {
     }
 }
 
-.nav-container {
-    max-width: 1140px;
-    margin: 0 auto;
-    position: relative;
-}
-
 .nav-buttons {
     justify-content: flex-end;
     margin-left: auto;
 }
 
+//for dropdown menue
 .dropdown {
     position: relative;
     z-index: 998;
@@ -107,6 +106,7 @@ ul {
 // .dropdown:hover .subnav {
 //     display: block;
 // }
+//BUTTONS ON NAV-BAR
 #type1 {
     border: 1px solid $purple;
     color: $purple;
@@ -135,11 +135,13 @@ ul {
     }
 }
 
+//ACTIVATES MENUE ICON TOGGLE FOR MOBILE
 .active {
     display: block !important;
     margin-bottom: 100px;
 }
 
+//MAKES THE NAVBAR FIXED
 .scrolled {
     z-index: 90;
     position: fixed;

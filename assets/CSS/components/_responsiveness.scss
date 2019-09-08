@@ -1,349 +1,358 @@
-        //for header and nav-bar
-        @media screen and (max-width: 1140px) {
-            nav {
-                .main {
-                    flex-wrap: wrap !important;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 815px) {
-            nav {
-                button {
-                    display: none;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 600px) {
-            header {
-                background: white !important;
-            }
-            nav {
-                .main-nav {
-                    position: absolute;
-                    right: 0px;
-                    top: 0px;
-                    z-index: 5;
-                    list-style-type: none;
-                    display: none;
-                    margin-top: 50px;
-                    width: 100%;
-                    background: white;
-                    li {
-                        margin: 15px;
+                //for header and nav-bar
+                @media screen and (max-width: 1140px) {
+                    nav {
+                        .main {
+                            flex-wrap: wrap !important;
+                        }
                     }
                 }
-                .navbar-toggle {
-                    display: block;
-                }
-                .logo {
-                    display: inline-block;
-                    margin-top: 10px;
-                    margin-left: 20px;
-                }
-                .subnav {
-                    position: unset !important;
-                    box-shadow: none !important;
-                    width: 100% !important;
-                    border-radius: 0px !important;
-                }
-            }
-        }
-        
-        // for HOME.HTML
-        @media screen and (max-width: 1140px) {
-            #welcome {
-                .container {
-                    .welcome-wrapper {
-                        flex-wrap: wrap;
-                        .left {
-                            width: 100%;
+                
+                @media screen and (max-width: 815px) {
+                    nav {
+                        button {
+                            display: none;
                         }
-                        .right {
+                    }
+                }
+                
+                @media screen and (max-width: 600px) {
+                    header {
+                        background: white !important;
+                    }
+                    nav {
+                        .main-nav {
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                            z-index: 5;
+                            list-style-type: none;
+                            display: none;
+                            margin-top: 50px;
                             width: 100%;
-                            .ramka {
-                                transform: scale(0.8);
+                            background: white;
+                            li {
+                                margin: 15px;
+                            }
+                        }
+                        .navbar-toggle {
+                            display: block;
+                        }
+                        .logo {
+                            display: inline-block;
+                            margin-top: 10px;
+                            margin-left: 20px;
+                        }
+                        .subnav {
+                            position: unset !important;
+                            box-shadow: none !important;
+                            width: 100% !important;
+                            border-radius: 0px !important;
+                        }
+                    }
+                }
+                
+                // for HOME.HTML
+                @media screen and (max-width: 1140px) {
+                    #welcome {
+                        .container {
+                            .welcome-wrapper {
+                                flex-wrap: wrap;
+                                .left {
+                                    width: 100%;
+                                }
+                                .right {
+                                    width: 100%;
+                                    .ramka {
+                                        transform: scale(0.8);
+                                    }
+                                }
                             }
                         }
                     }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #cloud {
-                .flex {
-                    flex-wrap: wrap;
-                    .options {
-                        margin: 0 auto;
-                        .option {
-                            margin: 10px;
+                
+                @media screen and (max-width: 1140px) {
+                    #cloud {
+                        .flex {
+                            flex-wrap: wrap;
+                            .options {
+                                margin: 0 auto;
+                                .option {
+                                    margin: 10px;
+                                }
+                            }
+                            .right {
+                                width: 100%;
+                            }
+                            .left {
+                                padding-right: 0px;
+                                margin: 0 auto;
+                            }
                         }
                     }
-                    .right {
-                        width: 100%;
-                    }
-                    .left {
-                        padding-right: 0px;
-                        margin: 0 auto;
-                    }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 600px) {
-            #cloud {
-                .flex {
-                    flex-direction: column;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #Design {
-                .container {
-                    flex-wrap: wrap !important;
-                }
-                .flex {
-                    display: flex;
-                    flex-wrap: wrap !important;
-                    .options {
-                        margin: 0 auto;
-                        .option {
-                            margin: 10px;
+                
+                @media screen and (max-width: 600px) {
+                    #cloud {
+                        .flex {
+                            flex-direction: column;
                         }
                     }
-                    .right {
-                        min-width: 100% !important;
-                        padding: 0 40px;
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #Design {
+                        .container {
+                            flex-wrap: wrap !important;
+                        }
+                        .flex {
+                            display: flex;
+                            flex-wrap: wrap !important;
+                            .options {
+                                margin: 0 auto;
+                                .option {
+                                    margin: 10px;
+                                }
+                            }
+                            .right {
+                                min-width: 100% !important;
+                                padding: 0 40px;
+                            }
+                        }
                     }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 600px) {
-            #Design {
-                .flex {
-                    flex-direction: column;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #services {
-                .container {
-                    flex-wrap: wrap;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #parallax {
-                .wrapper {
-                    flex-wrap: wrap !important;
-                    .item {
-                        min-width: 255px;
-                        margin: 20px auto !important;
+                
+                @media screen and (max-width: 600px) {
+                    #Design {
+                        .flex {
+                            flex-direction: column;
+                        }
                     }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #team {
-                .container {
+                
+                @media screen and (max-width: 1140px) {
+                    #services {
+                        .container {
+                            flex-wrap: wrap;
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #parallax {
+                        .wrapper {
+                            flex-wrap: wrap !important;
+                            .item {
+                                min-width: 255px;
+                                margin: 20px auto !important;
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #team {
+                        .container {
+                            .text {
+                                margin: 0 auto;
+                            }
+                            .team {
+                                flex-wrap: wrap !important;
+                                .teamMember {
+                                    max-width: 261px;
+                                    margin: 60px auto !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #Prices {
+                        .text {
+                            margin: 0 auto;
+                        }
+                        .plans {
+                            flex-wrap: wrap !important;
+                            .plan {
+                                margin: 20px auto !important;
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
                     .text {
                         margin: 0 auto;
                     }
-                    .team {
-                        flex-wrap: wrap !important;
-                        .teamMember {
-                            max-width: 261px;
-                            margin: 60px auto !important;
-                        }
-                    }
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #Prices {
-                .text {
-                    margin: 0 auto;
-                }
-                .plans {
-                    flex-wrap: wrap !important;
-                    .plan {
-                        margin: 20px auto !important;
-                    }
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            .text {
-                margin: 0 auto;
-            }
-            #blog {
-                .wrapper-blog {
-                    flex-wrap: wrap !important;
-                    .blog-item {
-                        margin: 0 auto;
-                    }
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            footer {
-                .main {
-                    flex-wrap: wrap !important;
-                }
-            }
-        }
-        
-        //only for about.html
-        @media screen and (max-width: 1140px) {
-            #mission {
-                .mission-wrapper {
-                    flex-direction: column;
-                }
-                .image {
-                    width: 100%;
-                    img {
-                        width: 100%;
-                    }
-                }
-                .about-text {
-                    position: unset !important;
-                }
-            }
-            #vission {
-                .mission-wrapper {
-                    flex-direction: column !important;
-                }
-                .image {
-                    width: 100%;
-                    img {
-                        width: 100%;
-                    }
-                }
-                .about-text {
-                    position: unset !important;
-                }
-            }
-        }
-        
-        //for faq.html
-        @media screen and (max-width: 1140px) {
-            #faq {
-                .container {
-                    .wrapper {
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        .intro {
-                            width: 100%;
-                        }
-                        .faqs {
-                            width: 100%;
-                        }
-                    }
-                }
-            }
-        }
-        
-        //for contact.html
-        @media screen and (max-width: 1140px) {
-            #map {
-                margin: 0 20px;
-                .contact {
-                    flex-wrap: wrap !important;
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #contact-form {
-                margin: 0 20px;
-                .wrapper {
-                    flex-wrap: wrap !important;
-                    .contact-text {
-                        width: 100% !important;
-                    }
-                }
-            }
-        }
-        
-        //for blog.html
-        @media screen and (max-width: 1140px) {
-            #blog {
-                margin: 0 20px;
-                .assets {
-                    margin: 0 auto;
-                    .asset {
-                        margin: 0 auto;
-                    }
-                }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #blog {
-                .blogs {
-                    flex-wrap: wrap;
-                    .blog-wrapper {
-                        margin: 0 auto;
-                        min-width: 320px;
-                    }
-                }
-            }
-        }
-        
-        //for single-blog.html
-        @media screen and (max-width: 1140px) {
-            #blog {
-                .wrapper {
-                    .blogs {
-                        width: 100% !important;
-                        .single-blog {
-                            width: 100% !important;
-                            .images {
-                                flex-wrap: wrap;
+                    #blog {
+                        .wrapper-blog {
+                            flex-wrap: wrap !important;
+                            .blog-item {
+                                margin: 0 auto;
                             }
                         }
                     }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 800px) {
-            #blog {
-                .images {
-                    .image-SB {
-                        width: 100%;
-                        flex-wrap: wrap;
-                        img {
-                            height: unset;
-                            ;
+                
+                @media screen and (max-width: 1140px) {
+                    footer {
+                        .main {
+                            flex-wrap: wrap !important;
                         }
                     }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #comments {
-                .comments-wrapper {
-                    margin: 0 auto;
+                
+                //only for about.html
+                @media screen and (max-width: 1140px) {
+                    #mission {
+                        .mission-wrapper {
+                            flex-direction: column;
+                        }
+                        .image {
+                            width: 100%;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .about-text {
+                            position: unset !important;
+                        }
+                    }
+                    #vission {
+                        .mission-wrapper {
+                            flex-direction: column !important;
+                        }
+                        .image {
+                            width: 100%;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .about-text {
+                            position: unset !important;
+                        }
+                    }
                 }
-            }
-        }
-        
-        @media screen and (max-width: 1140px) {
-            #comment-form {
-                .comments-wrapper2 {
-                    margin: 30px auto;
+                
+                //for faq.html
+                @media screen and (max-width: 1140px) {
+                    #faq {
+                        .container {
+                            .wrapper {
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                .intro {
+                                    width: 100%;
+                                }
+                                .faqs {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
                 }
-            }
-        }
+                
+                //for contact.html
+                @media screen and (max-width: 1140px) {
+                    #map {
+                        margin: 0 20px;
+                        .contact {
+                            flex-wrap: wrap !important;
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #contact-form {
+                        margin: 0 20px;
+                        .wrapper {
+                            flex-wrap: wrap !important;
+                            .contact-text {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+                
+                //for blog.html
+                @media screen and (max-width: 1140px) {
+                    #blog {
+                        margin: 0 20px;
+                        .assets {
+                            margin: 0 auto;
+                            .asset {
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #blog {
+                        .blogs {
+                            flex-wrap: wrap;
+                            .blog-wrapper {
+                                margin: 0 auto;
+                                min-width: 320px;
+                            }
+                        }
+                    }
+                }
+                
+                //for single-blog.html
+                @media screen and (max-width: 1140px) {
+                    //for parallax part 
+                    .sblog-h1 {
+                        transform: scale(0.7);
+                        position: absolute;
+                        top: -100px;
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #blog {
+                        .wrapper {
+                            .blogs {
+                                width: 100% !important;
+                                .single-blog {
+                                    width: 100% !important;
+                                    .images {
+                                        flex-wrap: wrap;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 800px) {
+                    #blog {
+                        .images {
+                            .image-SB {
+                                width: 100%;
+                                flex-wrap: wrap;
+                                img {
+                                    height: unset;
+                                    ;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #comments {
+                        .comments-wrapper {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 1140px) {
+                    #comment-form {
+                        .comments-wrapper2 {
+                            margin: 30px auto;
+                        }
+                    }
+                }

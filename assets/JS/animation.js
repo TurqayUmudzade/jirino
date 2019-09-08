@@ -1,3 +1,4 @@
+//The loading screen animation
 $(window).on("load", function() {
     $(".loader-wrapper").fadeOut(1600);
 })

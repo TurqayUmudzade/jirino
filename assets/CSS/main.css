@@ -406,6 +406,15 @@ button {
 }
 
 @media screen and (max-width: 1140px) {
+  .sblog-h1 {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    position: absolute;
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
   #blog .wrapper .blogs {
     width: 100% !important;
   }
